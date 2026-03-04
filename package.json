@@ -1,17 +1,17 @@
 {
   "name": "@mercuryworkshop/wisp-js",
-  "version": "0.4.0",
+  "version": "0.4.1",
   "description": "A client and server for the Wisp protocol, written in Javascript",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/MercuryWorkshop/wisp-client-js.git"
+    "url": "git+https://github.com/MercuryWorkshop/wisp-js.git"
   },
   "author": "MercuryWorkshop",
   "license": "AGPL-3.0",
   "bugs": {
-    "url": "https://github.com/MercuryWorkshop/wisp-client-js/issues"
+    "url": "https://github.com/MercuryWorkshop/wisp-js/issues"
   },
-  "homepage": "https://github.com/MercuryWorkshop/wisp-client-js#readme",
+  "homepage": "https://github.com/MercuryWorkshop/wisp-js#readme",
   "main": "./src/index.mjs",
   "exports": {
     ".": {
@@ -48,16 +48,16 @@
     "wisp-js-server": "src/bin/server_cli.mjs"
   },
   "dependencies": {
-    "bufferutil": "^4.0.9",
-    "commander": "^14.0.1",
-    "ipaddr.js": "^2.2.0",
-    "ws": "^8.18.3"
+    "bufferutil": "^4.1.0",
+    "commander": "^14.0.3",
+    "ipaddr.js": "^2.3.0",
+    "ws": "^8.19.0"
   },
   "devDependencies": {
-    "@babel/core": "^7.28.4",
-    "@babel/preset-env": "^7.28.3",
+    "@babel/core": "^7.29.0",
+    "@babel/preset-env": "^7.29.0",
     "babel-loader": "^10.0.0",
-    "webpack": "^5.101.3",
+    "webpack": "^5.105.4",
     "webpack-cli": "^6.0.1"
   }
 }
